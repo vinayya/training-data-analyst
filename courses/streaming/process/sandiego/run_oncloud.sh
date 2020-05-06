@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if [ "$#" -lt 3 ]; then
-   echo "Usage:   ./run_oncloud.sh project-name bucket-name classname [options] "
+   echo "Usage:   ./run_oncloud.sh 
+qwiklabs-gcp-02-e0dd97c142e6 staging classname [options] "
    echo "Example: ./run_oncloud.sh cloud-training-demos cloud-training-demos CurrentConditions --bigtable"
    exit
 fi
